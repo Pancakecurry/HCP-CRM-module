@@ -47,6 +47,7 @@ The agent is equipped with five specialized tools to accomplish its work:
 ```bash
 git clone [https://github.com/yourusername/hcp-crm-module.git](https://github.com/yourusername/hcp-crm-module.git)
 cd hcp-crm-module
+```
 
 ### 2. Backend Setup
 
