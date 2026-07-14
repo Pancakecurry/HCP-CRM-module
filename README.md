@@ -43,7 +43,12 @@ The agent is equipped with five specialized tools to accomplish its work:
 - Python (v3.10+)
 - A valid [Groq API Key](https://console.groq.com/keys)
 
-### 1. Backend Setup
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/yourusername/hcp-crm-module.git](https://github.com/yourusername/hcp-crm-module.git)
+cd hcp-crm-module
+
+### 2. Backend Setup
 
 Open a terminal and navigate to the backend directory:
 ```bash
@@ -73,7 +78,7 @@ uvicorn main:app --reload
 ```
 *The backend will now be running on `http://localhost:8000`.*
 
-### 2. Frontend Setup
+### 3. Frontend Setup
 
 Open a **new** terminal and navigate to the frontend directory:
 ```bash
@@ -90,10 +95,11 @@ Start the Vite development server:
 npm run dev
 ```
 
-### 3. Usage
+### 4. Usage
 Open the provided local URL (typically `http://localhost:5173`) in your web browser. 
 
 Try testing the AI:
 > *"I met with Dr. Smith today in person. We discussed the new clinical trial data. It went very well!"*
 
 Watch as the AI streams its response and the locked form populates automatically!
+
